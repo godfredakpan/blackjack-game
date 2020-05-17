@@ -1,12 +1,4 @@
-function generateCat(){
-    var image = document.createElement('img');
 
-    var div = document.getElementById('getGen');
-
-    image.src = "./img/myprofile.jpeg";
-
-    div.appendChild(image);
-}
 
 // Black Jack Game Dictionaries
 let blackjackGame = {
