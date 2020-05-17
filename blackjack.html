@@ -1,0 +1,81 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Jack</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body  class="">
+    <nav class="navbar sticky-top navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Return Home</a>
+        <a class="navbar-brand" href="blackjack.html">Play Black Jack</a>
+      </nav>
+    <div class="container">
+        <div class="card">
+            <div class="card-body" style="margin-bottom: 80px;">
+              
+                <div class="container">
+                    <h4 class="text-success" style="text-align: center;">Game Board</h4>
+                    <div class="col-md-4 mx-auto black-jack-table card card-body">
+                        <table class="table table-bordered">
+                            <tr>
+                                <th>Wins</th>
+                                <th>Losses</th>
+                                <th>Draws</th>
+                            </tr>
+                            <tr>
+                                <td><span id="wins">0</span></td>
+                                <td><span id="losses">0</span></td>
+                                <td><span id="draws">0</span></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-md-12 cat black-jack card card-body" style="text-align: center;">
+
+                    <span id="black-jack-result">Lets Play</span>
+
+                    <div class="col-md-12 row">
+                    
+                        <div class="col-md-6 black-jack-boards" id="your-box">
+
+                            <h4>You : <span id="your-black-jack-result">0</span></h4>
+
+                        
+                        </div>
+
+                        <div class="col-md-6 black-jack-boards" id="dealer-box">
+
+                            <h4>Dealer : <span id="dealer-black-jack-result">0</span></h4>
+
+                        </div>
+
+                        <div class="col-md-12 buttons">
+
+                            <div>
+                                <button id="black-jack-hit-button" class="btn mr-2 btn-lg btn-primary">Hit</button>
+                                <button id="black-jack-stand-button" class="btn mr-2 btn-lg btn-warning">Stand</button>
+                                <button id="black-jack-deal-button" class="btn mr-2 btn-lg btn-danger">Deal</button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                
+            <img src="https://1502298981.rsc.cdn77.org/media/1286/backjack-card-values.jpg?width=500&height=281.25" class="img-fluid"  alt="">
+            </div>
+            
+        </div>
+    </div>
+    <nav class="navbar fixed-bottom navbar-dark bg-dark">
+        <a class="navbar-brand" href="https://github.com/godfredakpan"><i style="margin-left:50px" class="fa fa-github"></i></a>
+      </nav>
+</body>
+<script src="js/script.js"></script>
+</html>

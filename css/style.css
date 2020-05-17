@@ -1,0 +1,65 @@
+body{
+    font-family: 'Cairo', sans-serif;
+    color:#343a40!important;
+}
+.body-div{
+    background-color: burlywood;
+    height: 70vh;
+    margin-top: 20vh;
+}
+.height{
+    margin-top: 5px;
+}
+.icons{
+    margin-top:20px;
+}
+.social{
+    margin-top: 20px;
+}
+.img-fluid{
+    border-radius: 10px;
+}
+p{
+    font-weight: 200;
+}
+.cat{
+    margin: 30 auto;
+}
+.black-jack{
+    color: white;
+    background: url(../img/tableBackground.png)center;
+    background-repeat: no-repeat;
+}
+table{
+    color: white !important;
+    margin: 0 auto;
+}
+.card{
+    border: 0px;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+  ;
+}
+
+.black-jack-boards{
+    height: 350px;
+}
+.black-jack-boards img{
+    width:25%;
+    padding: 10px;
+    flex: 1;
+}
+.black-jack-table{
+    background-color: #343a40;
+    margin: 20px auto;
+    
+}
+
+.buttons{
+    margin-top:50px;
+}
